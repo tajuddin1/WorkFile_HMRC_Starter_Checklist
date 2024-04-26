@@ -38,10 +38,16 @@ body {
     height: 18px;
     border: 1px solid rgb(118, 118, 118);
     padding: 0px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 13px;
-    justify-content: flex-end;
-    align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .form-label {
@@ -68,7 +74,8 @@ body {
 
 .form-control:focus {
     outline: unset !important;
-    box-shadow: unset !important;
+    -webkit-box-shadow: unset !important;
+            box-shadow: unset !important;
 }
 
 label.form-check-label {
@@ -94,7 +101,8 @@ label.form-check-label {
 
 .form-check-input:focus {
     border-color: rgb(167, 167, 167);
-    box-shadow: unset !important;
+    -webkit-box-shadow: unset !important;
+            box-shadow: unset !important;
 }
 
 .form-check .form-check-input {
