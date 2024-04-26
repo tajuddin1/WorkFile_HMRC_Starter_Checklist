@@ -1,0 +1,111 @@
+body {
+    font-family: Cuprum, sans-serif;
+}
+
+.container {
+    max-width: 760px !important;
+}
+
+.logo-wrapper h1 {
+    font-family: Almarai, sans-serif;
+    line-height: 26px;
+    font-size: 26px;
+}
+
+.main-logo {
+    max-width: 40px;
+}
+
+.border {
+    border-color: rgb(0, 0, 0) !important;
+}
+
+.heading-1 {
+    font-size: 30px;
+}
+
+.heading-2 {
+    font-size: 26px;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.number-card {
+    width: 28px;
+    height: 18px;
+    border: 1px solid rgb(118, 118, 118);
+    padding: 0px 5px;
+    display: flex;
+    font-size: 13px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form-label {
+    font-size: 16px !important;
+    line-height: 20px;
+    display: block;
+}
+
+.form-label span {
+    line-height: 16px;
+}
+
+.form-control {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 4px 10px;
+    border-color: rgb(167, 167, 167) !important;
+}
+
+.date-format .form-control {
+    max-width: 23px;
+    padding: 4px 2px;
+}
+
+.form-control:focus {
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+label.form-check-label {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 25px;
+    background-color: unset !important;
+    border-color: rgb(167, 167, 167) !important;
+}
+
+.form-check-input:checked[type="radio"] {
+    --bs-form-check-bg-image: url(check.png);
+}
+
+.form-check-input:checked {
+    background-color: unset;
+    border-color: rgb(167, 167, 167);
+}
+
+.form-check-input:focus {
+    border-color: rgb(167, 167, 167);
+    box-shadow: unset !important;
+}
+
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+}
+
+.ms-05 {
+    margin-left: 2px;
+}
+
+.ans {
+    min-width: 20px;
+}

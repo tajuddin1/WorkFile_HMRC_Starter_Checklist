@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Title -->
+    <title>HMRC Starter checklist</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main my-3">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-6">
+                    <div class="logo-wrapper ps-1 border border-3 border-0 border-start">
+                        <img class="main-logo pb-2 ps-1" src="logo.jpg" alt="">
+                        <h1 class="mb-0 ps-1">HM Revenue <br>& Customs</h1>
+                    </div>
+                </div>
+                <div class="col-6 d-flex align-items-end justify-content-end">
+                    <h1 class="text-end mb-0 fw-bold heading-1">Starter checklist</h1>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="heading-2 fw-bold mb-0">Instructions for employers</h2>
+                <p class="description mb-3">
+                    This Starter Checklist can be used to gather information about your new employee. You can use this  <br>
+                    information to help fill in your first Full Payment Submission (FPS) for this employee. You need to keep <br>
+                    the information recorded on the Starter Checklist record for the current and previous 3 tax years. <br>
+                    Do not send this form to HMRC. 
+                </p>
+                <h2 class="heading-2 fw-bold mb-0">Instructions for employees</h2>
+                <p class="description mb-0">
+                    As a new employee your employer needs the information on this form before your first payday to tell HMRC  <br>
+                    about you and help them use the correct tax code. Fill in this form then give it to your employer. <br>
+                    Do not send this form to HMRC.
+                </p>
+            </div>
+            <hr class="border border-3 border-0 border-bottom opacity-100 my-2 pt-1">
+            <div class="row">
+                <h2 class="heading-2 fw-bold mb-3">Employee’s personal details</h2>
+                <div class="col-6">
+                    <div class="d-flex mb-3 pb-1">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                1
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for="">Last name</label>
+                                <input class="form-control rounded-0" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3 pb-1">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                2
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for="">First name(s) <br>
+                                    <span class="fw-normal d-inline-block mt-1">Do not enter initials or shortened names such as Jim for 
+                                    James or Liz for Elizabeth</span></label>
+                                <input class="form-control rounded-0" type="text">
+                                <input class="form-control rounded-0 border-top-0" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3 pb-1">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                3
+                            </div>
+                        </div>
+                        <div class="ps-2">
+                            <div class="col-12 pe-0">
+                                <label class="form-label fw-bold mb-2" for="">Are you male or female?</label>
+                                <div class="row">
+                                    <div class="col-6 d-flex align-items-end">
+                                        <label class="form-check-label pe-3" for="male">
+                                            Male
+                                        </label>
+                                        <div class="form-check">
+                                            <input class="form-check-input rounded-0" type="radio" name="gender" value="" id="male">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-items-end">
+                                        <label class="form-check-label pe-3" for="female">
+                                            Female
+                                        </label>
+                                        <div class="form-check">
+                                            <input class="form-check-input rounded-0" type="radio" name="gender" value="" id="female">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3 pb-1">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                4
+                            </div>
+                        </div>
+                        <div class="ps-2">
+                            <div class="col-12 pe-0">
+                                <label class="form-label fw-bold mb-2" for="">Date of birth <span class="d-inline-block fw-light ps-2">DD MM YYYY</span></label>
+                                <div class="d-flex flex-row date-format">
+                                    <div class="d-flex">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                    <div class="d-flex px-2">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex mb-3 pb-1">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                5
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12">
+                                <label class="form-label fw-bold mb-2" for="">Home address</label>
+                                <input class="form-control rounded-0" type="text">
+                                <input class="form-control rounded-0 border-top-0" type="text">
+                                <input class="form-control rounded-0 border-top-0" type="text">
+                                <input class="form-control rounded-0 border-top-0" type="text" placeholder="Postcode">
+                                <input class="form-control rounded-0 border-top-0" type="text" placeholder="Country">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3 pb-1">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                6
+                            </div>
+                        </div>
+                        <div class="ps-2">
+                            <div class="col-12 pe-0">
+                                <label class="form-label fw-bold mb-2" for=""><b>National Insurance number (if known)</b> </label>
+                                <div class="d-flex flex-row date-format">
+                                    <div class="d-flex">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                    <div class="d-flex px-2">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                    <div class="d-flex px-2">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3 pb-1">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                               7
+                            </div>
+                        </div>
+                        <div class="ps-2">
+                            <div class="col-12 pe-0">
+                                <label class="form-label fw-bold mb-2" for="">Employment start date<span class="d-inline-block fw-light ps-2">DD MM YYYY</span></label>
+                                <div class="d-flex flex-row date-format">
+                                    <div class="d-flex">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                    <div class="d-flex px-2">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                    <div class="d-flex">
+                                        <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                        <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border border-3 border-0 border-bottom opacity-100 my-2 pt-1">
+            <div class="row">
+                <h2 class="heading-2 fw-bold mb-3">Employee statement </h2>
+                <div class="col-12">
+                    <div class="d-flex pb-2">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                8
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for="">You need to select only one of the following statements A, B or C</label>
+                                <div class="row">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 fw-bold d-flex align-items-center" for="A8">
+                                                A
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question8" value="" id="A8">
+                                            </div>
+                                            <span class="fw-normal">
+                                                This is my first job since 6 April and I’ve not been receiving taxable Jobseeker’s Allowance, <br>
+                                                Employment and Support Allowance, taxable Incapacity Benefit, <br>
+                                                State or Occupational Pension.
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 fw-bold d-flex align-items-center" for="B8">
+                                                B
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question8" value="" id="B8">
+                                            </div>
+                                            <span class="fw-normal">
+                                                This is now my only job but since 6 April I’ve had another job, or received taxable <br>
+                                                Jobseeker’s Allowance, Employment and Support Allowance or taxable Incapacity Benefit.<br>
+                                                I do not receive a State or Occupational Pension. 
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-0">
+                                        <label class="form-check-label pe-3 fw-bold d-flex align-items-center" for="C8">
+                                                C
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question8" value="" id="C8">
+                                            </div>
+                                            <span class="fw-normal">
+                                                As well as my new job, I have another job or receive a State or Occupational Pension.
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border border-3 border-0 border-bottom opacity-100 my-2 pt-1">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="heading-2 fw-bold mb-1">Employee statement </h2>
+                    <p class="description">For more guidance about repaying go to 
+                        <a class="text-decoration-none text-dark" href="www.gov.uk/repaying-your-student-loan">www.gov.uk/repaying-your-student-loan</a> </p>
+                    <div class="d-flex mb-2">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                9
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for="">Do you have one of the Student Loan Plans described 
+                                    below which is not fully repaid?</label>
+                                <div class="row">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="A9">
+                                            <div class="ans">
+                                                Yes
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question9" value="" id="A9">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If Yes, go to question 10 
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="B9">
+                                            <div class="ans">
+                                                No
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question9" value="" id="B9">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If No, go to question 13 
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                10
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for=""> Did you complete or leave your studies before 
+                                    6th April?</label>
+                                <div class="row">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="A10">
+                                            <div class="ans">
+                                                Yes
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question10" value="" id="A10">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If Yes, go to question 11
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="B10">
+                                            <div class="ans">
+                                                No
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question10" value="" id="B10">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If No, go to question 13 
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                11
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for=""> Are you repaying your Student Loan directly to the 
+                                    Student Loans Company by direct debit?</label>
+                                <div class="row">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="A11">
+                                            <div class="ans">
+                                                Yes
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question11" value="" id="A11">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If Yes, go to question 13
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="B11">
+                                            <div class="ans">
+                                                No
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question11" value="" id="B11">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If No, go to question 12 
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                12
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for=""> What type of Student Loan do you have? </label>
+                                <div class="row">
+                                    <div class="col-4 d-flex align-items-end">
+                                        <label class="form-check-label pe-3" for="plan1">
+                                            Plan 1
+                                        </label>
+                                        <div class="form-check">
+                                            <input class="form-check-input rounded-0" type="radio" name="loanType" value="" id="plan1">
+                                        </div>
+                                    </div>
+                                    <div class="col-4 d-flex align-items-end">
+                                        <label class="form-check-label pe-3" for="plan2">
+                                            Plan 2
+                                        </label>
+                                        <div class="form-check">
+                                            <input class="form-check-input rounded-0" type="radio" name="loanType" value="" id="plan2">
+                                        </div>
+                                    </div>
+                                    <div class="col-4 d-flex align-items-end">
+                                        <label class="form-check-label pe-3" for="both1">
+                                            Both
+                                        </label>
+                                        <div class="form-check">
+                                            <input class="form-check-input rounded-0" type="radio" name="loanType" value="" id="both1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="mb-0 mt-3 fw-bold">Student Loan Plans</h5>
+                    <p class="description mb-0">You’ll have a Plan 1 Student Loan if:</p>
+                    <ul class="ps-3 mb-0">
+                        <li class="description">you lived in Scotland or Northern Ireland when you started 
+                            your course (undergraduate or postgraduate)</li>
+                        <li class="description">you lived in England or Wales and started your 
+                            undergraduate course before 1 September 2012</li>
+                    </ul>
+                    <p class="description mb-0">You’ll have a Plan 2 Student Loan if:</p>
+                    <ul class="ps-3 mb-0">
+                        <li class="description"> you lived in England or Wales and started your 
+                            undergraduate course on or after 1 September 2012 </li>
+                        <li class="description"> your loan is a Part Time Maintenance Loan</li>
+                        <li class="description"> your loan is an Advanced Learner Loan </li>
+                        <li class="description"> your loan is a Postgraduate Healthcare Loan </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h2 class="heading-2 fw-bold mb-1">Employee statement </h2>
+                    <p class="description mb-2">For more guidance about funding and repaying go to
+                        <a class="text-decoration-none text-dark" href="www.gov.uk/funding-for-postgraduate-study">www.gov.uk/funding-for-postgraduate-study</a> </p>
+                    <p class="description">For more guidance for employers go to
+                        <a class="text-decoration-none text-dark" href="www.gov.uk/guidance/special-rules-for-student-loans">www.gov.uk/guidance/special-rules-for-student-loans</a> </p>
+                    <div class="d-flex mb-2">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                               13
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for="">Do you have a Postgraduate Loan which is not 
+                                    fully repaid?</label>
+                                <div class="row">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="A13">
+                                            <div class="ans">
+                                                Yes
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question13" value="" id="A13">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If Yes, go to question 14 
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="B13">
+                                            <div class="ans">
+                                                No
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question13" value="" id="B13">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If No, go to the Declaration
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="description mb-0 pb-1">You’ll have a Postgraduate Loan if: </p>
+                    <ul class="ps-3">
+                        <li class="description"> you lived in England and started your Postgraduate Master’s 
+                            course on or after 1 August 2016</li>
+                        <li class="description"> you lived in Wales and started your Postgraduate Master’s 
+                            course on or after 1 August 2017</li>
+                        <li class="description"> you lived in England or Wales and started your 
+                            Postgraduate Doctoral course on or after 1 August 2018</li>
+                    </ul>
+                    <div class="d-flex mb-2">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                14
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for=""> Did you complete or leave your Postgraduate studies 
+                                    before 6th April?</label>
+                                <div class="row">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="A14">
+                                            <div class="ans">
+                                                Yes
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question14" value="" id="A14">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If Yes, go to question 15
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="B14">
+                                            <div class="ans">
+                                                No
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question14" value="" id="B14">
+                                            </div>
+                                            <span class="fw-normal">
+                                                If No, go to the Declaration 
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <div class="pe-1">
+                            <div class="number-card text-end fw-bold">
+                                15
+                            </div>
+                        </div>
+                        <div class="ps-2 w-100">
+                            <div class="col-12 pe-3">
+                                <label class="form-label fw-bold mb-2" for=""> Are you repaying your Postgraduate Loan direct to the 
+                                    Student Loans Company by direct debit?</label>
+                                <div class="row">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="A15">
+                                            <div class="ans">
+                                                Yes
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question15" value="" id="A15">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-1">
+                                        <label class="form-check-label pe-3 d-flex align-items-center" for="B15">
+                                            <div class="ans">
+                                                No
+                                            </div>
+                                            <div class="form-check d-inline-flex mx-3">
+                                                <input class="form-check-input rounded-0 " type="radio" name="question15" value="" id="B15">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <label class="form-check-label pe-3 d-flex align-items-center" for="B15">
+                                        Go to the Declaration
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border border-3 border-0 border-bottom opacity-100 my-2 pt-1">
+            <div class="row">
+                <h2 class="heading-2 fw-bold mb-0">Declaration </h2>
+                <p class="description">I confirm that the information I’ve given on this form is correct.</p>
+
+                <div class="col-6">
+                    <div class="pe-3">
+                        <label class="form-label fw-bold mb-2" for="">Signature</label>
+                        <textarea class="form-control rounded-0" name="" id="" cols="0" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="col-6 mb-0">
+                    <label class="form-label fw-bold mb-2" for="">Full name </label>
+                    <input class="form-control rounded-0" type="text"><br>
+
+                    <label class="form-label fw-bold mb-2" for="">Date of birth <span class="d-inline-block fw-light ps-2">DD MM YYYY</span></label>
+                    <div class="d-flex flex-row date-format">
+                        <div class="d-flex">
+                            <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                            <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                        </div>
+                        <div class="d-flex px-2">
+                            <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                            <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                        </div>
+                        <div class="d-flex">
+                            <input class="form-control rounded-0 text-center" type="text" maxlength="1">
+                            <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                            <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                            <input class="form-control rounded-0 text-center ms-05" type="text" maxlength="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
